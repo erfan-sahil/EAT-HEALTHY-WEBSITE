@@ -1,62 +1,106 @@
-
-body{
-    margin: 0%;
+body {
+  margin: 0;
+  padding: 0;
 }
-.heading-part{
-    display: flex;
-    font-family: 'Montserrat', sans-serif;
+.heading-part {
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
 font-family: 'Poppins', sans-serif;
-margin: 200px 120px;
-
-
-
+  margin: 100px 120px;
 }
 
-.heading-part-left{
-width: 50%;
-height: 80%;
-padding-top: 180px;
-padding-left: 100px;
+.heading-part-left {
+  width: 50%;
+  height: 80%;
+  padding-top: 140px;
+  padding-left: 100px;
 }
 
-.heading-part-left h1{
-    font-size: 70px;
-    font-weight:bolder;
-    color:rgb(60, 60, 60);
-   
+.heading-part-left h1 {
+  font-size: 70px;
+  font-weight: bolder;
+  color: rgb(60, 60, 60);
 }
 
-.text-orange{
-   color:#ff821e;
+.text-orange {
+  color: #ff821e;
 }
 
-.heading-part-right{
-    width: 50%;
-    height: 80%;
-    margin: 0;
-    padding-bottom: 200px;
+.heading-part-right {
+  width: 50%;
+  height: 80%;
+  margin: 0;
+  padding-bottom: 200px;
+  position: relative;
+}
 
-    
+.bg-image{
+    position: absolute;
 }
 
 .heading-part-right img {
-    float: top;
-    width: 900px;
-height: 950px;
+ padding-bottom: 100px;
+  width: 792px;
+  height: 843px;
 }
 
-.heading-part p{
-    margin-bottom: 50px;
+.heading-part p {
+  margin-bottom: 50px;
 }
 
-.order-button{
-    background-image: linear-gradient(to left,#FF5F15,#F28C28);
-    color:white;
-    font-size:medium;
-    font-weight: 400;
-    padding: 14px 25px;
-    border-radius: 30px;
-    text-decoration: none;
-    margin-top:50px;
+.order-button {
+  background-image: linear-gradient(to left, #ff5f15, #f28c28);
+  color: white;
+  font-size: medium;
+  font-weight: 400;
+  padding: 13px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  margin-top: 50px;
 }
 
+/* ----------------------
+-------------------------
+------------------------
+----------------------- */
+.second-part {
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  height: 600px;
+  margin-top: 50px;
+  
+  margin-bottom: 100px;
+  
+  padding-top: 80px;
+  margin-bottom: 1000px;
+  background-image: url(eat-healthy-main/eat-healthy-main/images/shapes/7.png);
+  background-repeat: no-repeat;
+  background-size:100%;
+}
+
+.second-part-left img {
+  width: 380px;
+  height: 580px;
+  padding-left: 150px;
+}
+
+.second-part-left {
+  width: 50%;
+}
+
+.second-part-right {
+  width: 50%;
+  padding: 80px 150px 120px;
+}
+
+.second-part-right h1 {
+  color: #787878;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.second-part-right p {
+  margin-bottom: 100px;
+}
