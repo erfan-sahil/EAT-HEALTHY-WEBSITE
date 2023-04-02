@@ -87,7 +87,7 @@ font-family: 'Poppins', sans-serif;
 
 .second-part-left img {
   width: 380px;
-  height: 580px;
+  height: 600px;
   padding-left: 150px;
 }
 
@@ -218,17 +218,20 @@ font-family: 'Poppins', sans-serif;
 }
 
 .youtube-part{
+  padding-top: 35px;
   margin-left: 100px;
   margin-right: 00px;
   
 
 }
 .youtube-part h1{
+  
   font-weight: bolder;
   font-size: 35px;
 }
 
 .instagram-part{
+  padding-top: 35px;
   margin-left: 260px;
   margin-right:0px;
  
@@ -236,12 +239,14 @@ font-family: 'Poppins', sans-serif;
 }
 
 .instagram-part h1{
+  
   font-weight: bolder;
   font-size: 35px;
 }
 
 
 .dribble-part{
+  padding-top: 35px;
   margin-left: 280px;
   margin-right: 0px;
 
