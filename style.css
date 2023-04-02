@@ -6,7 +6,10 @@ body {
   display: flex;
   font-family: 'Montserrat', sans-serif;
 font-family: 'Poppins', sans-serif;
-  margin: 100px 120px;
+  margin-top: 150px;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-bottom: 0px;
 }
 
 .heading-part-left {
@@ -25,6 +28,8 @@ font-family: 'Poppins', sans-serif;
 .text-orange {
   color: #ff821e;
 }
+
+
 
 .heading-part-right {
   width: 50%;
@@ -65,8 +70,8 @@ font-family: 'Poppins', sans-serif;
 ----------------------- */
 .second-part {
   display: flex;
-  font-family: "Montserrat", sans-serif;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
   width: 100%;
   height: 600px;
   margin-top: 50px;
@@ -74,7 +79,7 @@ font-family: 'Poppins', sans-serif;
   margin-bottom: 100px;
   
   padding-top: 80px;
-  margin-bottom: 1000px;
+  margin-bottom: 150px;
   background-image: url(eat-healthy-main/eat-healthy-main/images/shapes/7.png);
   background-repeat: no-repeat;
   background-size:100%;
@@ -103,4 +108,171 @@ font-family: 'Poppins', sans-serif;
 
 .second-part-right p {
   margin-bottom: 100px;
+}
+
+
+
+
+/* -------------------------
+-----------------------------
+-----------------------------
+---------------------------------- */
+.third-part{
+ margin: auto;
+  height: 160px;
+  width: 706px;
+
+}
+
+.third-part h1{
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  color: #787878;
+  font-size: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.third-part p{
+  text-align: center;
+}
+
+/* -------------------------
+-----------------------------
+-----------------------------
+---------------------------------- */
+
+
+
+.fourth-part{
+  display: flex;
+  margin-top: 150px;
+  font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+}
+.fourth-left-part {
+ 
+  height: 562px;
+  width: 50%;
+  width: 610px;
+  padding-left: 50px;
+  padding-right: 0px;
+  padding-top: 20px;
+  margin-left: 200px;
+  background-color:white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-radius: 15px;
+}
+.fourth-left-part img{
+  width: 550px;
+  height: 308px;
+  padding-top: 10px;
+
+
+  
+}
+
+.fourth-right-part {
+  height: 562px;
+  width: 50%;
+  margin-left: 200px;
+  width: 610px;
+  padding-left: 50px;
+  padding-right:0px;
+  padding-top: 20px;
+  background-color:white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-radius: 15px;
+}
+
+
+.fourth-right-part img{
+  width: 550px;
+  height: 308px;
+ 
+}
+
+
+/* -------------------------
+-----------------------------
+-----------------------------
+---------------------------------- */
+
+
+.last-part{
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  
+
+  margin-left: 350px;
+  width: 1240px;
+  height: 226px;
+  display: flex;
+  text-align: center;
+  margin-top: 100px;
+  background-color:white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-radius: 20px;
+
+}
+
+.youtube-part{
+  margin-left: 100px;
+  margin-right: 00px;
+  
+
+}
+.youtube-part h1{
+  font-weight: bolder;
+  font-size: 35px;
+}
+
+.instagram-part{
+  margin-left: 260px;
+  margin-right:0px;
+ 
+  
+}
+
+.instagram-part h1{
+  font-weight: bolder;
+  font-size: 35px;
+}
+
+
+.dribble-part{
+  margin-left: 280px;
+  margin-right: 0px;
+
+}
+
+.dribble-part h1{
+  font-weight: bolder;
+  font-size: 35px;
+}
+
+/* -------------------------
+-----------------------------
+-----------------------------
+---------------------------------- */
+footer{
+  text-align: center;
+  margin-top: 100px;
+  background-color: black;
+  height: 256px;
+  padding-top: 50px;
+}
+footer h1 {
+  
+  font-family: 'Manrope', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+footer p{
+  color: white;
+}
+
+.text-gray{
+  color:#787878;
 }
